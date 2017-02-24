@@ -72,7 +72,7 @@ Table Summarizing TopHat2 and Bowtie Compatibility
 <sup>d</sup>Source: <a href="https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ">https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ</a>  
 <sup>#</sup>My personal data specifically references the linux_x86_64 versions.  
 <sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup>  
-<sup>+</sup>Official documentation at https://ccb.jhu.edu/software/tophat/index.shtml suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1 and probably best that combination is used.
+<sup>+</sup>Official documentation at <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a> suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1 and probably best that combination is used.
 
 
 
