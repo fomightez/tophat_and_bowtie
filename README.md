@@ -3,7 +3,7 @@ TopHat2 and Bowtie compatibility
 
 
 
-NOTE ONLY FOR MYSELF:
+NOTES ONLY FOR MYSELF:
 Looks like I need to do Table in html and not markdown
 Says at http://stackoverflow.com/questions/23571724/github-markdown-colspan
 
@@ -18,6 +18,11 @@ Says at http://stackoverflow.com/questions/23571724/github-markdown-colspan
     <td colspan="2">Three</td>
   </tr>
 </table>
+
+Also cannot mix HTML and markdown, and so need to format links for HTML style in HTML-based table and not Markdown style
+
+
+
 
 
 
@@ -49,14 +54,14 @@ Table Summarizing TopHat2 and Bowtie Compatibility
     <td>Bowtie</td>
   </tr>
   <tr>
-    <td>[v2.1.1 release 2/23/2016](http://ccb.jhu.edu/software/tophat/downloads/tophat-2.1.1.Linux_x86_64.tar.gz)</td>
-    <td>[v2.2.3](http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip)<sup>a</sup></td>
+    <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.1.1.Linux_x86_64.tar.gz">v2.1.1 release 2/23/2016</a></td>
+    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip">v2.2.3</a><sup>a</sup></td>
     <td>v2.1.1 release 2/23/2016</td>
     <td>v2.3.0<sup>b</sup></td>
   </tr>
   <tr>
-    <td>[v2.0.12 release 6/24/2014](http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.12.Linux_x86_64.tar.gz)</td>
-    <td>[v2.2.3](http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip)<sup>c</sup></td>
+    <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.12.Linux_x86_64.tar.gz">v2.0.12 release 6/24/2014</a></td>
+    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip">v2.2.3</a><sup>c</sup></td>
     <td> </td>
     <td> </td>
   </tr>
@@ -67,7 +72,7 @@ Table Summarizing TopHat2 and Bowtie Compatibility
     <td> </td>
   </tr>
   <tr>
-    <td>>[v2.0.11 release 3/4/2014](http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.11.Linux_x86_64.tar.gz)</td>
+    <td>[v2.0.11 release 3/4/2014](http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.11.Linux_x86_64.tar.gz)</td>
     <td>[v2.1.0](http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.1.0/bowtie2-2.1.0-linux-x86_64.zip)<sup>+</sup><sup>d</sup></td>
     <td>v2.0.11 release 3/4/2014</td>
     <td>v2.2.2.0<sup>d</sup></td>
@@ -89,7 +94,6 @@ Table Summarizing TopHat2 and Bowtie Compatibility
 <sup>a</sup>(Source: My own experience.<sup>#</sup>)
 <sup>b</sup>(Source: I found a job with Tophat2 would FAIL at the `Mapping left_kept_reads.m2g_um to genome ...  with Bowtie2` step even with very small paired read sets.<sup>#</sup>)
 <sup>c</sup>(Source: https://ccb.jhu.edu/software/tophat/index.shtml)
-<sup>d</sup>(Source: )
 <sup>#</sup>My personal data specifically references the linux_x86_64 versions.
 <sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup>
 <sup>+</sup>Official documentation at https://ccb.jhu.edu/software/tophat/index.shtml suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1 and probably best that combination is used.
