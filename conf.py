@@ -42,7 +42,7 @@ templates_path = ['_templates']
 source_suffix = '.md'
 
 # exclude files matching these patterns
-exclude_patterns = ['_build','README']
+exclude_patterns = ['_build']
 
 # The master toctree document.
 master_doc = 'index'
@@ -72,7 +72,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store','README']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -155,16 +155,6 @@ source_suffix = ['.rst', '.md']
 
 
 
-# -- Options for Texinfo output -------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'tophat2_and_bowtie_compatibility', u'tophat2_and_bowtie_compatibility Documentation',
-     author, 'tophat2_and_bowtie_compatibility', 'One line description of project.',
-     'Miscellaneous'),
-]
 
 
 
