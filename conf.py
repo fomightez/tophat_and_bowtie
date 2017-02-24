@@ -32,7 +32,7 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
-master_doc = 'index'
+master_doc = 'README'
 project = u'tophat2_and_bowtie_compatibility'
 copyright = u'2017, Wayne Decatur'
 author = u'Wayne Decatur (fomightez on Github)'
