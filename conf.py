@@ -1,4 +1,4 @@
--*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 #
 # conf.py that works with my approach of using pandoc to convert markdown text
 # to restrctured text. It was created by taking the file version # cd20cc5 at
