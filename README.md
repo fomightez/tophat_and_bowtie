@@ -1,32 +1,6 @@
 TopHat2 and Bowtie compatibility
 =================================
 
-
-
-NOTES ONLY FOR MYSELF:
-Looks like I need to do Table in html and not markdown
-Says at http://stackoverflow.com/questions/23571724/github-markdown-colspan
-
-> "You can use HTML tables on GitHub (but not on StackOverflow)"
-
-<table>
-  <tr>
-    <td>One</td>
-    <td>Two</td>
-  </tr>
-  <tr>
-    <td colspan="2">Three</td>
-  </tr>
-</table>
-
-Also cannot mix HTML and markdown, and so need to format links for HTML style in HTML-based table and not Markdown style
-
-
-
-
-
-
-
 Relevancy
 ---------
 
@@ -91,11 +65,11 @@ Table Summarizing TopHat2 and Bowtie Compatibility
   </tr>
 
 </table>
-<sup>a</sup>(Source: My own experience.<sup>#</sup>)
-<sup>b</sup>(Source: I found a job with Tophat2 would FAIL at the `Mapping left_kept_reads.m2g_um to genome ...  with Bowtie2` step even with very small paired read sets.<sup>#</sup>)
-<sup>c</sup>(Source: https://ccb.jhu.edu/software/tophat/index.shtml)
-<sup>#</sup>My personal data specifically references the linux_x86_64 versions.
-<sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup>
+<sup>a</sup>(Source: My own experience.<sup>#</sup>)  
+<sup>b</sup>(Source: I found a job with Tophat2 would FAIL at the `Mapping left_kept_reads.m2g_um to genome ...  with Bowtie2` step even with very small paired read sets.<sup>#</sup>)  
+<sup>c</sup>(Source: https://ccb.jhu.edu/software/tophat/index.shtml)  
+<sup>#</sup>My personal data specifically references the linux_x86_64 versions.  
+<sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup>  
 <sup>+</sup>Official documentation at https://ccb.jhu.edu/software/tophat/index.shtml suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1 and probably best that combination is used.
 
 
