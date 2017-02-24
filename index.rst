@@ -31,28 +31,3 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   getting_started
-   connecting_windows
-   connecting_all_others
-   overview
-   condensed initial steps for today
-   genome of interest data acquisition
-   Get a ChIP-Seq dataset
-   Process the reads based on barcode
-   Map the reads
-   Improve the mapping of the reads
-   Preliminary view of mappings
-   Peak calling with MACS
-   Relation to genomic features using CEAS
-   Compare to published data
-   Filter additional regions
-   Motif discovery with MEME
-   sources
-   going forward
-   support_docs_follow
-   downloading_and_uploadingEC2
-   Making Wiggle file Covering Genome
-   telomere_bed
-   technical_guide_to_software
-   mac_readying
-   instance_readying
