@@ -41,6 +41,9 @@ templates_path = ['_templates']
 # source_suffix = ['.rst', '.md']
 source_suffix = '.md'
 
+# exclude files matching these patterns
+exclude_patterns = ['_build','README']
+
 # The master toctree document.
 master_doc = 'index'
 
@@ -48,7 +51,7 @@ master_doc = 'index'
 project = u'tophat2_and_bowtie_compatibility'
 copyright = u'2017, Wayne Decatur'
 author = u'Wayne Decatur (fomightez on Github)'
-copyright = u'2017, Wayne Decatur'
+
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
