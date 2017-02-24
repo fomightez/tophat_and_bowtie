@@ -1,7 +1,3 @@
-.. contents::
-   :depth: 3.0
-..
-
 May 2015 Feng Lab meeting
 =========================
 
@@ -24,11 +20,3 @@ Links
 -  `Slides link <http://fomightez.github.io/MayFourteenth_slides>`__.
 
 -  `A Google Doc for sharing today <http://bit.ly/FengGoogleDoc>`__
-
-Contents
-^^^^^^^^
-
-.. toctree::
-   :maxdepth: 2
-
-   
