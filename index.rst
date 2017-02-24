@@ -137,9 +137,33 @@ Table Summarizing TopHat2 and Bowtie Compatibility
 ::
 
     <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.8.Linux_x86_64.tar.gz">v2.0.8 release 2/26/2013</a></td>
-    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.1.0/bowtie2-2.1.0-linux-x86_64.zip">v2.1.0</a><sup>c</sup></td>
-    <td> </td>
-    <td> </td>
+.. raw:: html
+
+   <table>
+
+.. raw:: html
+
+   <tr>
+
+.. raw:: html
+
+   <td colspan="2">
+
+Compatible
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td colspan="2">
+
+NOT compatible
+
+.. raw:: html
+
+   </td>
 
 .. raw:: html
 
@@ -149,12 +173,317 @@ Table Summarizing TopHat2 and Bowtie Compatibility
 
    <tr>
 
-::
+.. raw:: html
 
-    <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.8b.Linux_x86_64.tar.gz">v2.0.8b release 4/12/2013</a></td>
-    <td><a href="https://sourceforge.net/projects/bowtie-bio/files/bowtie/1.0.0/bowtie-1.0.0-linux-x86_64.zip">v1.0.0</a><sup>c</sup></td>
-    <td> </td>
-    <td> </td>
+   <td>
+
+TopHat2
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+Bowtie
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+TopHat2
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+Bowtie
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   </tr>
+
+.. raw:: html
+
+   <tr>
+
+.. raw:: html
+
+   <td>
+
+`v2.1.1 release 2/23/2016`_
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+`v2.2.3`_\ :sup:`a`
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+v2.1.1 release 2/23/2016
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+v2.3.0\ :sup:`b`
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   </tr>
+
+.. raw:: html
+
+   <tr>
+
+.. raw:: html
+
+   <td>
+
+`v2.0.12 release 6/24/2014`_
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+`v2.2.3`_\ :sup:`c`
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   </tr>
+
+.. raw:: html
+
+   <tr>
+
+.. raw:: html
+
+   <td>
+
+`v2.0.11 release 3/4/2014`_
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+`v2.2.1`_\ :sup:`\*c`
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   </tr>
+
+.. raw:: html
+
+   <tr>
+
+.. raw:: html
+
+   <td>
+
+`v2.0.11 release 3/4/2014`_
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+`v2.1.0`_\ :sup:`+d`
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+v2.0.11 release 3/4/2014
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+v2.2.2.0\ :sup:`d`
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   </tr>
+
+.. raw:: html
+
+   <tr>
+
+.. raw:: html
+
+   <td>
+
+`v2.0.8 release 2/26/2013`_
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+`v2.1.0`_\ :sup:`c`
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   </tr>
+
+.. raw:: html
+
+   <tr>
+
+.. raw:: html
+
+   <td>
+
+`v2.0.8b release 4/12/2013`_
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+`v1.0.0`_\ :sup:`c`
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+.. raw:: html
+
+   </td>
+
+.. raw:: html
+
+   <td>
+
+.. raw:: html
+
+   </td>
 
 .. raw:: html
 
@@ -163,6 +492,16 @@ Table Summarizing TopHat2 and Bowtie Compatibility
 .. raw:: html
 
    </table>
+
+.. _v2.1.1 release 2/23/2016: http://ccb.jhu.edu/software/tophat/downloads/tophat-2.1.1.Linux_x86_64.tar.gz
+.. _v2.2.3: http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip
+.. _v2.0.12 release 6/24/2014: http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.12.Linux_x86_64.tar.gz
+.. _v2.0.11 release 3/4/2014: http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.11.Linux_x86_64.tar.gz
+.. _v2.2.1: http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.1/bowtie2-2.2.1-linux-x86_64.zip
+.. _v2.1.0: http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.1.0/bowtie2-2.1.0-linux-x86_64.zip
+.. _v2.0.8 release 2/26/2013: http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.8.Linux_x86_64.tar.gz
+.. _v2.0.8b release 4/12/2013: http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.8b.Linux_x86_64.tar.gz
+.. _v1.0.0: https://sourceforge.net/projects/bowtie-bio/files/bowtie/1.0.0/bowtie-1.0.0-linux-x86_64.zip
 
 a(Source: My own experience.#) b(Source: I found a job with Tophat2
 would FAIL at the
