@@ -99,7 +99,7 @@ TopHat 2.0.8b release 4/12/2013 was released in order to provide compatibility w
 Other resources of compatibility information
 ---------------------------------------------
 
-Tophat 2.0.11 coupled with Bowtie2 2.1.0 was reported working (Source: [Kashyap Chhatbar](http://genomebio.org/not-having-fun-with-tophat/) ) (I'd put this other other possibilities heading with a note that official documentation at https://ccb.jhu.edu/software/tophat/index.shtml suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1
+Tophat 2.0.11 coupled with Bowtie2 2.1.0 was reported working (Source: [Kashyap Chhatbar](http://genomebio.org/not-having-fun-with-tophat/) )
 
 Tophat 2.0.11 incompatible with Bowtie2 2.2.2.0. It would FAIL at the `Mapping left_kept_reads.m2g_um to genome ... with Bowtie2` step even with very small paired read sets. (Source: https://groups.google.com/forum/#!topic/tuxedo-tools-users/vG5Rn0IgxoA)
 
