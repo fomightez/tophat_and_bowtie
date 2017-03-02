@@ -112,4 +112,5 @@ I personally found TopHat 2.1.1 release 2/23/2016 compatible with Bowtie v2.2.3<
 
 Related
 -------
-[Bioinformatics Software Compatibility](COMING SOON)](COMING SOON)
+
+[Bioinformatics Software Compatibility](http://bioinformatics-software-compatibility.readthedocs.io/en/latest/)
