@@ -35,7 +35,7 @@ Table Summarizing TopHat2 and Bowtie Compatibility
     <td>v2.3.0<sup>b</sup></td>
   </tr>
   <tr>
-    <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.12.Linux_x86_64.tar.gz">v2.0.14 release 3/24/2015</a><sup>Best for Macs(?)</sup><sup>a</sup><sup>c</sup>/td>
+    <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.12.Linux_x86_64.tar.gz">v2.0.14 release 3/24/2015</a><sup>Best for Macs(?)</sup><sup>a</sup><sup>c</sup></td>
     <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip">v2.2.3</a><sup>d</sup></td>
     <td> </td>
     <td> </td>
@@ -94,7 +94,7 @@ When I tried running TopHat version 2.1.1 on a Mac OSX 10.9.5 computer recently,
     Error: segment-based junction search failed with err =-5
       Reason: image not found
 
-Others had seen this happen as well and they were all running on OSX as far as I can tell, see [here](https://www.biostars.org/p/191081/) and [here](https://www.biostars.org/p/194771/). [In one case it had been tracked to a library not being loaded correctly](https://www.biostars.org/p/191081/. In lieu of a soltuion, I can offer a work-around. I found that moving back to TopHat2 version 2.0.14 worked, as [moving back to version 2.0.13 had been reported to work by others](https://www.biostars.org/p/191081/).
+Others had seen this happen as well and they were all running on OSX as far as I can tell, see [here](https://www.biostars.org/p/191081/) and [here](https://www.biostars.org/p/194771/). [In one case it had been tracked to a library not being loaded correctly](https://www.biostars.org/p/191081/). In lieu of a soltuion, I can offer a work-around. I found that moving back to TopHat2 version 2.0.14 worked, as [moving back to version 2.0.13 had been reported to work by others](https://www.biostars.org/p/191081/).
 
 
 
