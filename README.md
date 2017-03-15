@@ -35,49 +35,66 @@ Table Summarizing TopHat2 and Bowtie Compatibility
     <td>v2.3.0<sup>b</sup></td>
   </tr>
   <tr>
+    <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.12.Linux_x86_64.tar.gz">v2.0.14 release 3/24/2015</a><sup>Best for Macs(?)</sup><sup>a</sup><sup>c</sup>/td>
+    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip">v2.2.3</a><sup>d</sup></td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
     <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.12.Linux_x86_64.tar.gz">v2.0.12 release 6/24/2014</a></td>
-    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip">v2.2.3</a><sup>c</sup></td>
+    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip">v2.2.3</a><sup>d</sup></td>
     <td> </td>
     <td> </td>
   </tr>
   <tr>
     <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.11.Linux_x86_64.tar.gz">v2.0.11 release 3/4/2014</a></td>
-    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.1/bowtie2-2.2.1-linux-x86_64.zip">v2.2.1</a><sup>*</sup><sup>c</sup></td>
+    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.1/bowtie2-2.2.1-linux-x86_64.zip">v2.2.1</a><sup>*</sup><sup>d</sup></td>
     <td> </td>
     <td> </td>
   </tr>
   <tr>
     <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.11.Linux_x86_64.tar.gz">v2.0.11 release 3/4/2014</a></td>
-    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.1.0/bowtie2-2.1.0-linux-x86_64.zip">v2.1.0</a><sup>+</sup><sup>d</sup></td>
+    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.1.0/bowtie2-2.1.0-linux-x86_64.zip">v2.1.0</a><sup>+</sup><sup>e</sup></td>
     <td>v2.0.11 release 3/4/2014</td>
-    <td>v2.2.2.0<sup>d</sup></td>
+    <td>v2.2.2.0<sup>e</sup></td>
   </tr>
    <tr>
     <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.8.Linux_x86_64.tar.gz">v2.0.8 release 2/26/2013</a></td>
-    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.1.0/bowtie2-2.1.0-linux-x86_64.zip">v2.1.0</a><sup>c</sup></td>
+    <td><a href="http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.1.0/bowtie2-2.1.0-linux-x86_64.zip">v2.1.0</a><sup>d</sup></td>
     <td> </td>
     <td> </td>
   </tr>
   <tr>
     <td><a href="http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.8b.Linux_x86_64.tar.gz">v2.0.8b release 4/12/2013</a></td>
-    <td><a href="https://sourceforge.net/projects/bowtie-bio/files/bowtie/1.0.0/bowtie-1.0.0-linux-x86_64.zip">v1.0.0</a><sup>c</sup></td>
+    <td><a href="https://sourceforge.net/projects/bowtie-bio/files/bowtie/1.0.0/bowtie-1.0.0-linux-x86_64.zip">v1.0.0</a><sup>d</sup></td>
     <td> </td>
     <td> </td>
   </tr>
 
 </table>
-<sup>a</sup>Source: My own experience.<sup>#</sup>  
-<sup>b</sup>Source: I found a job with Tophat2 would FAIL at the `Mapping left_kept_reads.m2g_um to genome ...  with Bowtie2` step even with very small paired read sets.<sup>#</sup>  
-<sup>c</sup>Source: <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a>  
-<sup>d</sup>Source: <a href="https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ">https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ</a>  
-<sup>#</sup>My personal data specifically references the linux_x86_64 versions.  
-<sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup>  
+<sup>a</sup>Source: My own experience.<sup>#</sup>
+<sup>b</sup>Source: I found a job with Tophat2 would FAIL at the `Mapping left_kept_reads.m2g_um to genome ...  with Bowtie2` step even with very small paired read sets.<sup>#</sup>
+<sup>c</sup>Source: Attempts with TopHat2 v2.1.1 on Mac OSX resulted in failure at the `Searching for junctions via segment mapping` step, specifically `Error: segment-based junction search failed with err =-5`. I didn't have this error when I changed to using TopHat2 v2.0.14 on Mac OSX, and instead the job worked, see the 'Tophat2 on Mac' section for more details.</a>
+<sup>d</sup>Source: <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a>
+<sup>e</sup>Source: <a href="https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ">https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ</a>
+<sup>#</sup>My personal data specifically references the linux_x86_64 versions, with the important exception of TopHat2 v2.0.14 information, which was on a Mac, see footnote c.
+<sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup>
 <sup>+</sup>Official documentation at <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a> suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1 and probably best that combination is used.
 
 
 
 
+Tophat2 on Mac
+--------------
 
+When I tried running TopHat version 2.1.1 on a Mac OSX 10.9.5 computer recently, I had it fail at a specific point with a specific error.
+
+    Searching for junctions via segment mapping
+        [FAILED]
+    Error: segment-based junction search failed with err =-5
+      Reason: image not found
+
+Others had seen this happen as well and they were all running on OSX as far as I can tell, see [here](https://www.biostars.org/p/191081/) and [here](https://www.biostars.org/p/194771/). [In one case it had been tracked to a library not being loaded correctly](https://www.biostars.org/p/191081/. In lieu of a soltuion, I can offer a work-around. I found that moving back to TopHat2 version 2.0.14 worked, as [moving back to version 2.0.13 had been reported to work by others](https://www.biostars.org/p/191081/).
 
 
 
@@ -107,8 +124,10 @@ I personally found TopHat 2.1.1 release 2/23/2016 incompatible with Bowtie2 2.3.
 
 I personally found TopHat 2.1.1 release 2/23/2016 compatible with Bowtie v2.2.3<sup>*</sup>
 
+I personally found TopHat 2.0.14 release 2/23/2016 compatible with Bowtie v2.2.3<sup>*</sup>
 
-<sup>*</sup>My personal data specifically references the linux_x86_64 versions.
+
+<sup>*</sup>My personal data specifically references the linux_x86_64 versions, except in the case of TopHat 2.0.14 release 2/23/2016 compatible with Bowtie v2.2.3 infromation was from a Mac where TopHat 2.1.1 had resulted in an error, see the 'Tophat2 on Mac' section for details.
 
 Related
 -------
