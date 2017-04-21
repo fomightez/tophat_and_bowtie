@@ -79,14 +79,14 @@ Table Summarizing TopHat2 and Bowtie Compatibility
 
 </table>
 <sup>a</sup>Source: My own experience.<sup>#</sup></br>  
-<sup>b</sup>Source: I found a job with Tophat2 would FAIL at the `Mapping left_kept_reads.m2g_um to genome ...  with Bowtie2` step even with very small paired read sets.<sup>#</sup></br>    
-<sup>c</sup>Source: Attempts with TopHat2 v2.1.1 on Mac OSX resulted in failure at the `Searching for junctions via segment mapping` step, specifically `Error: segment-based junction search failed with err =-5`. I didn't have this error when I changed to using TopHat2 v2.0.14 on Mac OSX, and instead the job worked, see the 'Tophat2 on Mac' section for more details.</a> </br>   
-<sup>d</sup>Source: <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a></br>    
-<sup>e</sup>Source: <a href="https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ">https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ</a>  </br>  
-<sup>f</sup> Source: It has been suggested by a colleague, Md Shafiuddin, that for Unix flavors with `apt-get` you can simply run `apt-get install - y tophat` and it will also get a compatible version of Bowtie automatically as part of install process, see [here](http://installion.co.uk/ubuntu/vivid/universe/t/tophat/install/index.html) says it is Tophat2. These seem to be versions Tophat2 2.0.9 and Bowtie 2.1.0-2. NOTE: I found I had to run `sudo apt-get update` for `apt-get` to see the package from inside a standard Ubuntu 14.04 Docker image.  </br>  
-<sup>#</sup>My personal data specifically references the linux_x86_64 versions, with the important exception of TopHat2 v2.0.14 information, which was on a Mac, see footnote c.  </br>  
-<sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup>  </br>  
-<sup>+</sup>Official documentation at <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a> suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1 and probably best that combination is used.  </br>  
+<sup>b</sup>Source: I found a job with Tophat2 would FAIL at the `Mapping left_kept_reads.m2g_um to genome ...  with Bowtie2` step even with very small paired read sets.<sup>#</sup></br>  
+<sup>c</sup>Source: Attempts with TopHat2 v2.1.1 on Mac OSX resulted in failure at the `Searching for junctions via segment mapping` step, specifically `Error: segment-based junction search failed with err =-5`. I didn't have this error when I changed to using TopHat2 v2.0.14 on Mac OSX, and instead the job worked, see the 'Tophat2 on Mac' section for more details.</a></br>  
+<sup>d</sup>Source: <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a></br>  
+<sup>e</sup>Source: <a href="https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ">https://groups.google.com/d/msg/tuxedo-tools-users/vG5Rn0IgxoA/PQ-JHh29oMoJ</a></br>  
+<sup>f</sup> Source: It has been suggested by a colleague, Md Shafiuddin, that for Unix flavors with `apt-get` you can simply run `apt-get install - y tophat` and it will also get a compatible version of Bowtie automatically as part of install process, see [here](http://installion.co.uk/ubuntu/vivid/universe/t/tophat/install/index.html) says it is Tophat2. These seem to be versions Tophat2 2.0.9 and Bowtie 2.1.0-2. NOTE: I found I had to run `sudo apt-get update` for `apt-get` to see the package from inside a standard Ubuntu 14.04 Docker image.</br>  
+<sup>#</sup>My personal data specifically references the linux_x86_64 versions, with the important exception of TopHat2 v2.0.14 information, which was on a Mac, see footnote c.</br>  
+<sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup></br>  
+<sup>+</sup>Official documentation at <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a> suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1 and probably best that combination is used.</br>  
 
 
 
