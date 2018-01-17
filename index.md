@@ -5,7 +5,7 @@ TopHat2 and Bowtie compatibility
 Relevancy
 ---------
 
-This has been a relevant concern over the years as evidenced by [here](https://www.biostars.org/p/154060/), [here](http://genomebio.org/not-having-fun-with-tophat/), [here](http://seqanswers.com/forums/showthread.php?t=41254), [here](https://groups.google.com/forum/#!topic/tuxedo-tools-users/vG5Rn0IgxoA), [here](https://www.biostars.org/p/132408/), [here](https://ccb.jhu.edu/software/tophat/index.shtml), [here](http://seqanswers.com/forums/showthread.php?t=24676), and etc., and continues to be as Tophat usage persists (for example, [Wang et al. 2016 PMID: 26483013](https://www.ncbi.nlm.nih.gov/pubmed/26483013); [Jin et al. 2017 PMID: 28166730](https://www.ncbi.nlm.nih.gov/pubmed/28166730), etc.) despite there being a successor program [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) to which the site for Tophat directs current interested parties.
+This has been a relevant concern over the years as evidenced by [here](https://www.biostars.org/p/154060/), [here](http://genomebio.org/not-having-fun-with-tophat/), [here](http://seqanswers.com/forums/showthread.php?t=41254), [here](https://groups.google.com/forum/#!topic/tuxedo-tools-users/vG5Rn0IgxoA), [here](https://www.biostars.org/p/132408/), [here](https://ccb.jhu.edu/software/tophat/index.shtml), [here](http://seqanswers.com/forums/showthread.php?t=24676), and etc., and continues to be as Tophat usage persists (for example, [Wang et al. 2016 PMID: 26483013](https://www.ncbi.nlm.nih.gov/pubmed/26483013); [Jin et al. 2017 PMID: 28166730](https://www.ncbi.nlm.nih.gov/pubmed/28166730), etc.) despite [pleas of the authors](https://twitter.com/lpachter/status/937055346987712512) and there being a successor program [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) to which the site for Tophat directs current interested parties.
 
 > "Please note that TopHat has entered a low maintenance, low support stage as it is now largely superseded by [HISAT2](http://ccb.jhu.edu/software/hisat2/index.shtml) which provides the same core functionality (i.e. spliced alignment of RNA-Seq reads), in a more accurate and much more efficient way." (Source: https://ccb.jhu.edu/software/tophat/index.shtml)
 
@@ -87,6 +87,7 @@ Table Summarizing TopHat2 and Bowtie Compatibility
 <sup>#</sup>My personal data specifically references the linux_x86_64 versions, with the important exception of TopHat2 v2.0.14 information, which was on a Mac, see footnote c.</br>  
 <sup>*</sup>Although it does not support a 64-bit Bowtie2 index.<sup>c</sup></br>  
 <sup>+</sup>Official documentation at <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a> suggests TopHat 2.0.11 is compatible with Bowtie2 v2.2.1 and probably best that combination is used.</br>  
+
 
 
 
